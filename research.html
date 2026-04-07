@@ -11,171 +11,153 @@
 <body>
 <div class="container">
 
- <!-- ── Left Navigation ─────────────────────────── -->
- <aside class="nav-sidebar">
- <nav>
- <a href="index.html">Home</a>
- <a href="research.html" class="active">Research</a>
- <a href="talks.html">Talks</a>
- <a href="teaching.html">Teaching</a>
- <hr class="nav-sep">
- <a href="software.html">Software</a>
- <a href="data.html">Data</a>
- </nav>
- <div class="system-status">
- 
- <div>University College London, UK <img class="flag-px" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40' width='14' height='9' shape-rendering='crispEdges'%3E%3Crect width='60' height='40' fill='%23012169'/%3E%3Cpath d='M0,0 L60,40 M60,0 L0,40' stroke='%23fff' stroke-width='8'/%3E%3Cpath d='M0,0 L60,40' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M60,0 L0,40' stroke='%23C8102E' stroke-width='4'/%3E%3Crect x='23' width='14' height='40' fill='%23fff'/%3E%3Crect y='14' width='60' height='12' fill='%23fff'/%3E%3Crect x='27' width='6' height='40' fill='%23C8102E'/%3E%3Crect y='17' width='60' height='6' fill='%23C8102E'/%3E%3C/svg%3E" alt=""></div>
- <div>&amp; Paris, France <img class="flag-px" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40' width='14' height='9' shape-rendering='crispEdges'%3E%3Crect width='20' height='40' fill='%23002395'/%3E%3Crect x='20' width='20' height='40' fill='%23fff'/%3E%3Crect x='40' width='20' height='40' fill='%23ED2939'/%3E%3C/svg%3E" alt=""></div>
- <div>&nbsp;</div>
- <div>Last update:</div>
- <div>Mar 2026</div>
- </div>
- </aside>
+ <!-- ── Site Header ─────────────────────────────── -->
+ <header class="site-header">
+  <a class="site-title" href="index.html">Maxime Nicolas</a>
+  <nav class="top-nav">
+   <a href="index.html">Home</a>
+   <a href="research.html" class="active">Research</a>
+   <a href="talks.html">Talks</a>
+   <a href="teaching.html">Teaching</a>
+   <a href="software.html">Software</a>
+   <a href="data.html">Data</a>
+  </nav>
+ </header>
 
  <!-- ── Main Content ────────────────────────────── -->
  <main class="main-content">
- <div class="site-header">
- <h1 class="site-title">[maxime nicolas's home page] <span class="beta-badge">Beta</span></h1>
 
- </div>
+  <div class="section-header">Research Interests</div>
 
- <div class="section-header">Research Interests</div>
+  <p style="font-size:15px;line-height:1.7;margin-bottom:10px;">
+   My research specializes in <strong>financial econometrics</strong>, focusing on the identification of
+   <strong>tail risk</strong> and the mechanisms underlying <strong>systemic fragility</strong> and risk
+   contagion across interconnected financial systems. My approach combines extreme value theory,
+   network analysis, and empirical asset pricing. I also develop open-source statistical
+   software to support reproducible research.
+  </p>
+  <p style="font-size:15px;line-height:1.7;margin-bottom:4px;">
+   Key questions: <em>Where does risk in financial markets originate? How can it be measured?
+   Is risk incorporated into financial returns?</em>
+  </p>
 
- <p style="font-size:14px;line-height:1.7;margin-bottom:10px;">
- My research specializes in <strong>financial econometrics</strong>, focusing on the identification of
- <strong>tail risk</strong> and the mechanisms underlying <strong>systemic fragility</strong> and risk
- contagion across interconnected financial systems. My approach combines extreme value theory,
- network analysis, and empirical asset pricing. I also develop open-source statistical
- software to support reproducible research.
- </p>
- <p style="font-size:14px;line-height:1.7;margin-bottom:4px;">
- Key questions: <em>Where does risk in financial markets originate? How can it be measured?
- Is risk incorporated into financial returns?</em>
- </p>
+  <hr class="section-rule">
 
- <hr class="section-rule">
+  <!-- Published papers -->
+  <div class="section-header">Published Papers</div>
 
- <!-- Published papers -->
- <div class="section-header">Published Papers</div>
+  <div class="pub-item">
+   <div class="pub-num">[1]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L. (2025). <em>Tail risk exposure and the cross section of expected stock returns.</em>
+    <span class="jname">Journal of Banking &amp; Finance.</span>
+    <a href="https://ssrn.com/abstract=4956412" target="_blank">ssrn.com/abstract=4956412</a>
+    <span class="code-data"><span class="cd-label">Code &amp; Data:</span> <a href="https://github.com/maximenc/Tail-Risk-Exposure-Cross-Section" target="_blank">github.com/maximenc/Tail-Risk-Exposure-Cross-Section</a></span>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[1]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L. (2025). <em>Tail risk exposure and the cross section of expected stock returns.</em>
- <span class="jname">Journal of Banking &amp; Finance.</span>
- <a href="https://ssrn.com/abstract=4956412" target="_blank">ssrn.com/abstract=4956412</a>
- <span class="code-data"><span class="cd-label">⌨ Code &amp; Data:</span> <a href="https://github.com/maximenc/Tail-Risk-Exposure-Cross-Section" target="_blank">github.com/maximenc/Tail-Risk-Exposure-Cross-Section</a></span>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[2]</div>
+   <div class="pub-body">
+    Garcin, M., &amp; Nicolas, M.&nbsp;L. (2024). <em>Nonparametric estimator of the tail dependence coefficient: balancing bias and variance.</em>
+    <span class="jname">Statistical Papers.</span>
+    <a href="https://doi.org/10.48550/arXiv.2111.11128" target="_blank">10.48550/arXiv.2111.11128</a>
+    <span class="code-data"><span class="cd-label">Code &amp; Data:</span> <a href="https://github.com/maximenc/pycop" target="_blank">github.com/maximenc/pycop</a></span>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[2]</div>
- <div class="pub-body">
- Garcin, M., &amp; Nicolas, M.&nbsp;L. (2024). <em>Nonparametric estimator of the tail dependence coefficient: balancing bias and variance.</em>
- <span class="jname">Statistical Papers.</span>
- <a href="https://doi.org/10.48550/arXiv.2111.11128" target="_blank">10.48550/arXiv.2111.11128</a>
- <span class="code-data"><span class="cd-label">⌨ Code &amp; Data:</span> <a href="https://github.com/maximenc/pycop" target="_blank">github.com/maximenc/pycop</a></span>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[3]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L., Desroziers, A., Caccioli, F., &amp; Aste, T. (2024). <em>ESG reputation risk matters: An event study based on social media data.</em>
+    <span class="jname">Finance Research Letters.</span>
+    <a href="https://doi.org/10.1016/j.frl.2023.104712" target="_blank">10.1016/j.frl.2023.104712</a>
+    <span class="code-data"><span class="cd-label">Code &amp; Data:</span> available upon request</span>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[3]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L., Desroziers, A., Caccioli, F., &amp; Aste, T. (2024). <em>ESG reputation risk matters: An event study based on social media data.</em>
- <span class="jname">Finance Research Letters.</span>
- <a href="https://doi.org/10.1016/j.frl.2023.104712" target="_blank">10.1016/j.frl.2023.104712</a>
- <span class="code-data"><span class="cd-label">⌨ Code &amp; Data:</span> available upon request</span>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[4]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L. (2022). <em>Estimating a model of herding behavior on social networks.</em>
+    <span class="jname">Physica A: Statistical Mechanics and its Applications.</span>
+    <a href="https://doi.org/10.1016/j.physa.2022.127884" target="_blank">10.1016/j.physa.2022.127884</a>
+    <span class="code-data"><span class="cd-label">Code &amp; Data:</span> available upon request</span>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[4]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L. (2022). <em>Estimating a model of herding behavior on social networks.</em>
- <span class="jname">Physica A: Statistical Mechanics and its Applications.</span>
- <a href="https://doi.org/10.1016/j.physa.2022.127884" target="_blank">10.1016/j.physa.2022.127884</a>
- <span class="code-data"><span class="cd-label">⌨ Code &amp; Data:</span> available upon request</span>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[5]</div>
+   <div class="pub-body">
+    Boulu-Reshef, B., Bruneau, C., Nicolas, M., &amp; Renault, T. (2022). <em>An Experimental Analysis of Investor Sentiment.</em>
+    In <span class="jname">Behavioral Finance and Asset Prices: The Influence of Investors' Emotions.</span> Springer.
+    <a href="https://doi.org/10.1007/978-3-031-24486-5_6" target="_blank">10.1007/978-3-031-24486-5_6</a>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[5]</div>
- <div class="pub-body">
- Boulu-Reshef, B., Bruneau, C., Nicolas, M., &amp; Renault, T. (2022). <em>An Experimental Analysis of Investor Sentiment.</em>
- In <span class="jname">Behavioral Finance and Asset Prices: The Influence of Investors' Emotions.</span> Springer.
- <a href="https://doi.org/10.1007/978-3-031-24486-5_6" target="_blank">10.1007/978-3-031-24486-5_6</a>
- </div>
- </div>
+  <hr class="section-rule">
 
- <hr class="section-rule">
+  <!-- Working papers -->
+  <div class="section-header">Working Papers</div>
 
- <!-- Working papers -->
- <div class="section-header">Working Papers</div>
+  <div class="pub-item">
+   <div class="pub-num">[6]</div>
+   <div class="pub-body">
+    Garcin, M., &amp; Nicolas, M.&nbsp;L. (2025). <em>Directional Dependence of Extreme Events.</em>
+    <em>To be submitted: Econometric Theory</em>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[6]</div>
- <div class="pub-body">
- Garcin, M., &amp; Nicolas, M.&nbsp;L. (2025). <em>Directional Dependence of Extreme Events.</em>
- 
- <em>To be submitted: Econometric Theory</em>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[7]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025). <em>Is Bitcoin A Hedge Against Central Banking? Evidence from an AI-Driven Monetary Policy Expectations.</em>
+    <span class="code-data"><span class="cd-label">Code &amp; Data:</span> <a href="https://github.com/maximenc/Bitcoin-Monetary-Policy-Expectations" target="_blank">github.com/maximenc/Bitcoin-Monetary-Policy-Expectations</a></span>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[7]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025). <em>Is Bitcoin A Hedge Against Central Banking? Evidence from an AI-Driven Monetary Policy Expectations.</em>
- 
- <span class="code-data"><span class="cd-label">⌨ Code &amp; Data:</span> <a href="https://github.com/maximenc/Bitcoin-Monetary-Policy-Expectations" target="_blank">github.com/maximenc/Bitcoin-Monetary-Policy-Expectations</a></span>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[8]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L., Rodriguez M.&nbsp;A., &amp; Caccioli, F. (2025). <em>Do ETFs increase systemic risk?</em>
+    <em>To be submitted: Journal of Financial Markets</em>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[8]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L., Rodriguez M.&nbsp;A., &amp; Caccioli, F. (2025). <em>Do ETFs increase systemic risk?</em>
- 
- <em>To be submitted: Journal of Financial Markets</em>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[9]</div>
+   <div class="pub-body">
+    Aste, T., Barucci, E., Nicolas, M.&nbsp;L.&nbsp;D., &amp; Stocco, D. (2024). <em>Resilience of Market Returns around ESG Controversies: Insights from the S&amp;P 100.</em>
+    <a href="https://ssrn.com/abstract=5031012" target="_blank">ssrn.com/abstract=5031012</a>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[9]</div>
- <div class="pub-body">
- Aste, T., Barucci, E., Nicolas, M.&nbsp;L.&nbsp;D., &amp; Stocco, D. (2024). <em>Resilience of Market Returns around ESG Controversies: Insights from the S&amp;P 100.</em>
- <a href="https://ssrn.com/abstract=5031012" target="_blank">ssrn.com/abstract=5031012</a>
- </div>
- </div>
+  <div class="pub-item">
+   <div class="pub-num">[10]</div>
+   <div class="pub-body">
+    Levy, S., &amp; Nicolas, M.&nbsp;L. (2024). <em>Modern Portfolio Diversification with Arte-Blue Chip Index.</em>
+    <a href="https://arxiv.org/abs/2409.18816" target="_blank">arxiv.org/abs/2409.18816</a>
+   </div>
+  </div>
 
- <div class="pub-item">
- <div class="pub-num">[10]</div>
- <div class="pub-body">
- Levy, S., &amp; Nicolas, M.&nbsp;L. (2024). <em>Modern Portfolio Diversification with Arte-Blue Chip Index.</em>
- <a href="https://arxiv.org/abs/2409.18816" target="_blank">arxiv.org/abs/2409.18816</a>
- </div>
- </div>
+  <hr class="section-rule">
 
- <hr class="section-rule">
+  <!-- Software -->
+  <div class="section-header">Software</div>
 
- <!-- Software -->
- <div class="section-header">Software</div>
-
- <div class="pub-item">
- <div class="pub-num">[11]</div>
- <div class="pub-body">
- Nicolas, M.&nbsp;L. (2022). <em>pycop: a Python package for dependence modeling with copulas.</em>
- <span class="jname">Zenodo Software Package.</span>
- <span class="badge badge-sw">Software</span> <a href="https://doi.org/10.5281/zenodo.7030034" target="_blank">10.5281/zenodo.7030034</a>
- &nbsp;·&nbsp;
- <a href="software.html">→ Details</a>
- </div>
- </div>
-
+  <div class="pub-item">
+   <div class="pub-num">[11]</div>
+   <div class="pub-body">
+    Nicolas, M.&nbsp;L. (2022). <em>pycop: a Python package for dependence modeling with copulas.</em>
+    <span class="jname">Zenodo Software Package.</span>
+    <span class="badge badge-sw">Software</span> <a href="https://doi.org/10.5281/zenodo.7030034" target="_blank">10.5281/zenodo.7030034</a>
+    &nbsp;·&nbsp;
+    <a href="software.html">Details</a>
+   </div>
+  </div>
 
  </main>
 
-
 </div>
-<script src="script.js"></script>
 </body>
 </html>

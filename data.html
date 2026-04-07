@@ -5,291 +5,257 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Data – Maxime Nicolas</title>
  <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 <body>
 <div class="container">
 
- <!-- ── Left Navigation ─────────────────────────── -->
- <aside class="nav-sidebar">
- <nav>
- <a href="index.html">Home</a>
- <a href="research.html">Research</a>
- <a href="talks.html">Talks</a>
- <a href="teaching.html">Teaching</a>
- <hr class="nav-sep">
- <a href="software.html">Software</a>
- <a href="data.html" class="active">Data</a>
- </nav>
- <div class="system-status">
- 
- <div>University College London, UK <img class="flag-px" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40' width='14' height='9' shape-rendering='crispEdges'%3E%3Crect width='60' height='40' fill='%23012169'/%3E%3Cpath d='M0,0 L60,40 M60,0 L0,40' stroke='%23fff' stroke-width='8'/%3E%3Cpath d='M0,0 L60,40' stroke='%23C8102E' stroke-width='4'/%3E%3Cpath d='M60,0 L0,40' stroke='%23C8102E' stroke-width='4'/%3E%3Crect x='23' width='14' height='40' fill='%23fff'/%3E%3Crect y='14' width='60' height='12' fill='%23fff'/%3E%3Crect x='27' width='6' height='40' fill='%23C8102E'/%3E%3Crect y='17' width='60' height='6' fill='%23C8102E'/%3E%3C/svg%3E" alt=""></div>
- <div>&amp; Paris, France <img class="flag-px" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 40' width='14' height='9' shape-rendering='crispEdges'%3E%3Crect width='20' height='40' fill='%23002395'/%3E%3Crect x='20' width='20' height='40' fill='%23fff'/%3E%3Crect x='40' width='20' height='40' fill='%23ED2939'/%3E%3C/svg%3E" alt=""></div>
- <div>&nbsp;</div>
- <div>Last update:</div>
- <div>Mar 2026</div>
- </div>
- </aside>
+ <!-- ── Site Header ─────────────────────────────── -->
+ <header class="site-header">
+  <a class="site-title" href="index.html">Maxime Nicolas</a>
+  <nav class="top-nav">
+   <a href="index.html">Home</a>
+   <a href="research.html">Research</a>
+   <a href="talks.html">Talks</a>
+   <a href="teaching.html">Teaching</a>
+   <a href="software.html">Software</a>
+   <a href="data.html" class="active">Data</a>
+  </nav>
+ </header>
 
  <!-- ── Main Content ────────────────────────────── -->
  <main class="main-content">
- <div class="site-header">
- <h1 class="site-title">[maxime nicolas's home page] <span class="beta-badge">Beta</span></h1>
- </div>
 
- <div class="section-header">Data</div>
+  <div class="section-header">Data</div>
 
- <hr class="section-rule">
+  <hr class="section-rule">
 
- <!-- Bitcoin / Monetary Policy Paper -->
- <h3 class="subsec">
- Is Bitcoin A Hedge Against Central Banking?
- 
- </h3>
+  <!-- Bitcoin / Monetary Policy Paper -->
+  <h3 class="subsec">Is Bitcoin A Hedge Against Central Banking?</h3>
 
- <div style="border:2px solid #5577bb;background:#e8eeff;padding:10px 14px;margin-bottom:16px;font-size:13px;line-height:1.7;">
- <strong>Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025).</strong>
- AI-driven index of monetary policy expectations (LLM-scored FOMC communications, 2009–2024)
- matched with Bitcoin and financial market data (2013–2024).
- Code and data available upon publication.
- <span style="display:block;margin-top:8px;border-top:1px solid #aac;padding-top:6px;">
- <a href="https://github.com/maximenc/Bitcoin-Monetary-Policy-Expectations" target="_blank" style="color:#0000cc;">github.com/maximenc/Bitcoin-Monetary-Policy-Expectations</a>
- </span>
- </div>
+  <div style="border:1px solid #ccc;background:#f8f8f8;padding:12px 14px;margin-bottom:16px;font-size:14px;line-height:1.7;">
+   <strong>Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025).</strong>
+   AI-driven index of monetary policy expectations (LLM-scored FOMC communications, 2009–2024)
+   matched with Bitcoin and financial market data (2013–2024).
+   Code and data available upon publication.
+   <span style="display:block;margin-top:8px;border-top:1px solid #ddd;padding-top:6px;">
+    <a href="https://github.com/maximenc/Bitcoin-Monetary-Policy-Expectations" target="_blank">github.com/maximenc/Bitcoin-Monetary-Policy-Expectations</a>
+   </span>
+  </div>
 
- <hr class="section-rule">
+  <hr class="section-rule">
 
- <!-- Interactive Chart -->
- <div class="section-header">Interactive Data Explorer</div>
+  <!-- Interactive Chart -->
+  <div class="section-header">Interactive Data Explorer</div>
 
- <p style="font-size:13px;line-height:1.7;margin-bottom:10px;color:#444;">
- Weekly data (2014–2025). All series from the paper's main dataset.
- Use the range selector or drag to zoom. Click legend items to toggle series.
- Hover for precise values across all panels simultaneously.
- </p>
+  <p style="font-size:14px;line-height:1.7;margin-bottom:10px;color:#444;">
+   Weekly data (2014–2025). All series from the paper's main dataset.
+   Use the range selector or drag to zoom. Click legend items to toggle series.
+   Hover for precise values across all panels simultaneously.
+  </p>
 
- <div id="chart-container" style="
- border: 2px solid #5577bb;
- background: #f8f8ff;
- padding: 10px 6px 6px 6px;
- margin-bottom: 16px;
- position: relative;
- ">
- <div id="mpe-chart" style="width:100%;height:520px;"></div>
- <div id="chart-loading" style="
- position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
- font-family:'Space Mono',monospace;font-size:13px;color:#555;
- text-align:center;
- ">
- Loading data<span id="dots">...</span>
- </div>
- </div>
+  <div id="chart-container" style="
+   border: 1px solid #ccc;
+   background: #fafafa;
+   padding: 10px 6px 6px 6px;
+   margin-bottom: 16px;
+   position: relative;
+  ">
+   <div id="mpe-chart" style="width:100%;height:520px;"></div>
+   <div id="chart-loading" style="
+    position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+    font-size:13px;color:#555;
+    text-align:center;
+   ">
+    Loading data<span id="dots">...</span>
+   </div>
+  </div>
 
- <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
- <script>
- (function() {
- // Animate loading dots
- let dotState = 0;
- const dotsEl = document.getElementById('dots');
- const dotTimer = setInterval(() => {
- dotState = (dotState + 1) % 4;
- dotsEl.textContent = '.'.repeat(dotState) || '...';
- }, 400);
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <script>
+  (function() {
+   let dotState = 0;
+   const dotsEl = document.getElementById('dots');
+   const dotTimer = setInterval(() => {
+    dotState = (dotState + 1) % 4;
+    dotsEl.textContent = '.'.repeat(dotState) || '...';
+   }, 400);
 
- fetch('data/mpe_data_weekly.csv')
- .then(r => r.text())
- .then(raw => {
- clearInterval(dotTimer);
- document.getElementById('chart-loading').style.display = 'none';
+   fetch('data/mpe_data_weekly.csv')
+    .then(r => r.text())
+    .then(raw => {
+     clearInterval(dotTimer);
+     document.getElementById('chart-loading').style.display = 'none';
 
- // Parse CSV
- const lines = raw.trim().split('\n');
- const headers = lines[0].split(',');
- const rows = lines.slice(1).map(l => {
- const v = l.split(',');
- return {
- date: v[0],
- sp500: parseFloat(v[1]),
- ffr: parseFloat(v[2]),
- mp_exp: parseFloat(v[3]),
- btc: parseFloat(v[4]),
- btc_ret: parseFloat(v[5])
- };
- });
+     const lines = raw.trim().split('\n');
+     const rows = lines.slice(1).map(l => {
+      const v = l.split(',');
+      return {
+       date: v[0],
+       sp500: parseFloat(v[1]),
+       ffr: parseFloat(v[2]),
+       mp_exp: parseFloat(v[3]),
+       btc: parseFloat(v[4]),
+       btc_ret: parseFloat(v[5])
+      };
+     });
 
- const dates = rows.map(r => r.date);
- const sp500 = rows.map(r => r.sp500);
- const ffr = rows.map(r => r.ffr);
- const mp_exp = rows.map(r => isNaN(r.mp_exp) ? null : r.mp_exp);
+     const dates = rows.map(r => r.date);
+     const sp500 = rows.map(r => r.sp500);
+     const ffr = rows.map(r => r.ffr);
+     const mp_exp = rows.map(r => isNaN(r.mp_exp) ? null : r.mp_exp);
 
- // ── Common axis styling ─────────────────────────
- const axStyle = {
- tickfont: { family: "'Space Mono', monospace", size: 12, color: '#444' },
- linecolor: '#aaa',
- linewidth: 1,
- gridcolor: 'rgba(180,180,200,0.35)',
- gridwidth: 1,
- zerolinecolor: 'rgba(150,150,180,0.5)',
- zerolinewidth: 1,
- showspikes: true,
- spikecolor: '#888',
- spikethickness: 1,
- spikedash: 'dot',
- spikemode: 'across',
- };
+     const axStyle = {
+      tickfont: { size: 12, color: '#444' },
+      linecolor: '#aaa',
+      linewidth: 1,
+      gridcolor: 'rgba(180,180,200,0.35)',
+      gridwidth: 1,
+      zerolinecolor: 'rgba(150,150,180,0.5)',
+      zerolinewidth: 1,
+      showspikes: true,
+      spikecolor: '#888',
+      spikethickness: 1,
+      spikedash: 'dot',
+      spikemode: 'across',
+     };
 
- // ── Traces ──────────────────────────────────────
- const trSP500 = {
- x: dates, y: sp500,
- name: 'S&P 500',
- type: 'scatter', mode: 'lines',
- line: { color: '#1a5fa8', width: 2.2 },
- yaxis: 'y1',
- hovertemplate: '<b>S&P 500</b>: %{y:,.0f}<extra></extra>'
- };
+     const trSP500 = {
+      x: dates, y: sp500,
+      name: 'S&P 500',
+      type: 'scatter', mode: 'lines',
+      line: { color: '#1a5fa8', width: 2.2 },
+      yaxis: 'y1',
+      hovertemplate: '<b>S&P 500</b>: %{y:,.0f}<extra></extra>'
+     };
 
- const trFFR = {
- x: dates, y: ffr,
- name: 'Fed Funds Rate (%)',
- type: 'scatter', mode: 'lines',
- line: { color: '#cc2222', width: 2.5, shape: 'hv' },
- yaxis: 'y2',
- hovertemplate: '<b>FFR</b>: %{y:.2f}%<extra></extra>'
- };
+     const trFFR = {
+      x: dates, y: ffr,
+      name: 'Fed Funds Rate (%)',
+      type: 'scatter', mode: 'lines',
+      line: { color: '#cc2222', width: 2.5, shape: 'hv' },
+      yaxis: 'y2',
+      hovertemplate: '<b>FFR</b>: %{y:.2f}%<extra></extra>'
+     };
 
- const trMPexp = {
- x: dates, y: mp_exp,
- name: 'MP Expectation Index',
- type: 'scatter', mode: 'lines+markers',
- line: { color: '#2a8a2a', width: 2 },
- marker: { color: '#2a8a2a', size: 4 },
- yaxis: 'y3',
- connectgaps: false,
- hovertemplate: '<b>MP Exp.</b>: %{y:.4f}<extra></extra>'
- };
+     const trMPexp = {
+      x: dates, y: mp_exp,
+      name: 'MP Expectation Index',
+      type: 'scatter', mode: 'lines+markers',
+      line: { color: '#2a8a2a', width: 2 },
+      marker: { color: '#2a8a2a', size: 4 },
+      yaxis: 'y3',
+      connectgaps: false,
+      hovertemplate: '<b>MP Exp.</b>: %{y:.4f}<extra></extra>'
+     };
 
- const trMPzero = {
- x: [dates[0], dates[dates.length - 1]], y: [0, 0],
- type: 'scatter', mode: 'lines',
- line: { color: 'rgba(0,100,0,0.25)', width: 1, dash: 'dot' },
- yaxis: 'y3',
- showlegend: false, hoverinfo: 'skip'
- };
+     const trMPzero = {
+      x: [dates[0], dates[dates.length - 1]], y: [0, 0],
+      type: 'scatter', mode: 'lines',
+      line: { color: 'rgba(0,100,0,0.25)', width: 1, dash: 'dot' },
+      yaxis: 'y3',
+      showlegend: false, hoverinfo: 'skip'
+     };
 
- // ── Layout ──────────────────────────────────────
- const layout = {
- paper_bgcolor: '#f8f8ff',
- plot_bgcolor: '#ffffff',
- font: { family: "'Space Mono', monospace", size: 12, color: '#333' },
- margin: { t: 56, r: 120, b: 60, l: 85 },
- height: 520,
- showlegend: true,
- legend: {
- orientation: 'h',
- x: 0, y: 1.06,
- xanchor: 'left', yanchor: 'bottom',
- font: { family: "'Space Mono', monospace", size: 12 },
- bgcolor: 'rgba(248,248,255,0.8)',
- bordercolor: '#bbc', borderwidth: 1,
- },
- hovermode: 'x unified',
- hoverlabel: {
- bgcolor: '#fff',
- bordercolor: '#5577bb',
- font: { family: "'Space Mono', monospace", size: 13, color: '#222' },
- },
+     const layout = {
+      paper_bgcolor: '#fafafa',
+      plot_bgcolor: '#ffffff',
+      font: { size: 12, color: '#333' },
+      margin: { t: 56, r: 120, b: 60, l: 85 },
+      height: 520,
+      showlegend: true,
+      legend: {
+       orientation: 'h',
+       x: 0, y: 1.06,
+       xanchor: 'left', yanchor: 'bottom',
+       font: { size: 12 },
+       bgcolor: 'rgba(250,250,250,0.8)',
+       bordercolor: '#ccc', borderwidth: 1,
+      },
+      hovermode: 'x unified',
+      hoverlabel: {
+       bgcolor: '#fff',
+       bordercolor: '#ccc',
+       font: { size: 13, color: '#222' },
+      },
+      xaxis: {
+       ...axStyle,
+       rangeslider: { visible: true, thickness: 0.06, bgcolor: '#f0f0f8', bordercolor: '#bbb' },
+       rangeselector: {
+        buttons: [
+         { count: 1, label: '1Y', step: 'year', stepmode: 'backward' },
+         { count: 3, label: '3Y', step: 'year', stepmode: 'backward' },
+         { count: 5, label: '5Y', step: 'year', stepmode: 'backward' },
+         { step: 'all', label: 'All' }
+        ],
+        font: { size: 12 },
+        bgcolor: '#f0f0f0', activecolor: '#3a5fa8',
+        bordercolor: '#bbb', borderwidth: 1,
+        x: 0, y: 1.01, xanchor: 'left',
+       },
+       showspikes: true, spikecolor: '#888',
+       spikethickness: 1, spikedash: 'dot', spikemode: 'across+toaxis',
+      },
+      yaxis: {
+       ...axStyle,
+       title: { text: 'S&P 500', font: { size: 12, color: '#1a5fa8' }, standoff: 8 },
+       tickformat: ',.0f',
+       tickfont: { ...axStyle.tickfont, color: '#1a5fa8' },
+      },
+      yaxis2: {
+       ...axStyle,
+       overlaying: 'y',
+       side: 'right',
+       title: { text: 'FFR (%)', font: { size: 12, color: '#cc2222' }, standoff: 8 },
+       tickformat: '.1f',
+       tickfont: { ...axStyle.tickfont, color: '#cc2222' },
+       showgrid: false,
+      },
+      yaxis3: {
+       ...axStyle,
+       overlaying: 'y',
+       side: 'right',
+       position: 1,
+       anchor: 'free',
+       title: { text: 'MP Exp. Index', font: { size: 12, color: '#2a8a2a' }, standoff: 8 },
+       tickformat: '.3f',
+       tickfont: { ...axStyle.tickfont, color: '#2a8a2a' },
+       showgrid: false,
+      },
+      shapes: [],
+      annotations: []
+     };
 
- xaxis: {
- ...axStyle,
- rangeslider: { visible: true, thickness: 0.06, bgcolor: '#e8eeff', bordercolor: '#9ab' },
- rangeselector: {
- buttons: [
- { count: 1, label: '1Y', step: 'year', stepmode: 'backward' },
- { count: 3, label: '3Y', step: 'year', stepmode: 'backward' },
- { count: 5, label: '5Y', step: 'year', stepmode: 'backward' },
- { step: 'all', label: 'All' }
- ],
- font: { family: "'Space Mono', monospace", size: 12 },
- bgcolor: '#e8eeff', activecolor: '#5577bb',
- bordercolor: '#9ab', borderwidth: 1,
- x: 0, y: 1.01, xanchor: 'left',
- },
- showspikes: true, spikecolor: '#888',
- spikethickness: 1, spikedash: 'dot', spikemode: 'across+toaxis',
- },
+     const config = {
+      responsive: true,
+      displaylogo: false,
+      modeBarButtonsToRemove: ['select2d', 'lasso2d', 'autoScale2d'],
+      toImageButtonOptions: {
+       format: 'png', filename: 'mpe_data', height: 520, width: 1200, scale: 2
+      }
+     };
 
- // SP500 — left axis
- yaxis: {
- ...axStyle,
- title: { text: 'S&P 500', font: { size: 12, color: '#1a5fa8' }, standoff: 8 },
- tickformat: ',.0f',
- tickfont: { ...axStyle.tickfont, color: '#1a5fa8' },
- },
+     Plotly.newPlot('mpe-chart', [trSP500, trFFR, trMPexp, trMPzero], layout, config);
+    })
+    .catch(err => {
+     clearInterval(dotTimer);
+     document.getElementById('chart-loading').innerHTML =
+      '<span style="color:#cc0000;">Failed to load data. Run via a local server (e.g. <code>python -m http.server</code>).</span>';
+    });
+  })();
+  </script>
 
- // FFR — right axis
- yaxis2: {
- ...axStyle,
- overlaying: 'y',
- side: 'right',
- title: { text: 'FFR (%)', font: { size: 12, color: '#cc2222' }, standoff: 8 },
- tickformat: '.1f',
- tickfont: { ...axStyle.tickfont, color: '#cc2222' },
- showgrid: false,
- },
+  <hr class="section-rule">
 
- // MP Exp — second right axis (shifted out)
- yaxis3: {
- ...axStyle,
- overlaying: 'y',
- side: 'right',
- position: 1,
- anchor: 'free',
- title: { text: 'MP Exp. Index', font: { size: 12, color: '#2a8a2a' }, standoff: 8 },
- tickformat: '.3f',
- tickfont: { ...axStyle.tickfont, color: '#2a8a2a' },
- showgrid: false,
- },
- shapes: [],
- annotations: []
- };
-
- const config = {
- responsive: true,
- displaylogo: false,
- modeBarButtonsToRemove: ['select2d', 'lasso2d', 'autoScale2d'],
- toImageButtonOptions: {
- format: 'png', filename: 'mpe_data', height: 520, width: 1200, scale: 2
- }
- };
-
- Plotly.newPlot('mpe-chart',
- [trSP500, trFFR, trMPexp, trMPzero],
- layout, config
- );
- })
- .catch(err => {
- clearInterval(dotTimer);
- document.getElementById('chart-loading').innerHTML =
- '<span style="color:#cc0000;">Failed to load data. Run via a local server (e.g. <code>python -m http.server</code>).</span>';
- });
- })();
- </script>
-
- <hr class="section-rule">
-
- <!-- Citation -->
- <div class="section-header">Citation</div>
- <div style="background:#f5f5f5;border:1px solid #ccc;padding:10px 12px;font-size:13px;line-height:1.8;font-family:'Space Mono',monospace;">
- Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025).
- Is Bitcoin A Hedge Against Central Banking? Evidence from an AI-Driven Monetary Policy Expectations.
- <em>Working Paper.</em>
- </div>
+  <!-- Citation -->
+  <div class="section-header">Citation</div>
+  <div style="background:#f5f5f5;border:1px solid #ccc;padding:10px 14px;font-size:14px;line-height:1.8;font-family:monospace;">
+   Nicolas, M.&nbsp;L., Sicard, F., Rodriguez M.&nbsp;A., &amp; Zixin, S. (2025).
+   Is Bitcoin A Hedge Against Central Banking? Evidence from an AI-Driven Monetary Policy Expectations.
+   <em>Working Paper.</em>
+  </div>
 
  </main>
 
-
 </div>
-<script src="script.js"></script>
 </body>
 </html>
